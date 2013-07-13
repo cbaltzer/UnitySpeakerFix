@@ -40,7 +40,7 @@ public class DemoGUI : MonoBehaviour {
 
 
 		if (GUI.Button(new Rect(100, 250, 100, 50), "Fix")) {
-			iPhoneSpeaker.Fix();
+			iPhoneSpeaker.ForceToSpeaker();
 		}
 
 	}
