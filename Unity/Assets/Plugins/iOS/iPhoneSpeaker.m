@@ -31,7 +31,7 @@ bool _headsetConnected() {
     
     if (!error &&
         (route != NULL)&&
-        ([(NSString*)route rangeOfString:@"Head"].location != NSNotFound))
+        ([(__bridge NSString*)route rangeOfString:@"Head"].location != NSNotFound))
     {
         /*  don't think this is needed
             see "the get rule":
