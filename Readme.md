@@ -1,3 +1,10 @@
+WARNING
+=======
+
+I have not done Unity development in many years, and have no intention of updating or maintaining this package and am archiving the repo. Feel free to fork away. 
+
+***
+
 Unity iPhone Speaker Fix
 ========================
 
